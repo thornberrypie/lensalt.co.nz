@@ -1,0 +1,15 @@
+/*
+ Theme Name:   Goldthorn
+ Description:  Twenty Sixteen Child Theme
+ Author:       Goldthorn Productions
+ Author URI:   https://thornberrypie.com
+ Template:     twentysixteen
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  twentysixteenchild
+ Version:      1.0.0
+*/
+
+.widget li {
+  padding-bottom: 7px;
+}

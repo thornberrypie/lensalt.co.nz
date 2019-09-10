@@ -9,7 +9,87 @@
  Text Domain:  twentysixteenchild
  Version:      1.0.0
 */
+body:not(.custom-background-image):before,
+body:not(.custom-background-image):after,
+.site-footer .site-title:after {
+  display: none !important;
+}
+.site {
+  margin: 0 !important;
+}
+.site-header {
+  padding: 0 !important;
+  position: relative;
+}
+.site-title {
+  margin: 0 0 0 10px;
+}
+.site-footer {
+  border-top: 1px solid black;
+}
+.site-footer .site-title {
+  display: block;
+  margin: 1em 0 0 !important;
+}
+.site-description {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-left: 5%;
+  max-width: 66%;
+}
+.site-branding .site-title a {
+  color: black;
+}
+.site-branding .site-title a:hover {
+  color: black;
+}
+.header-image {
+  margin: 0 0 1.5em;
+}
+.entry-header, .entry-summary, .entry-content, .page-content {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
+/* Navigation */
+.menu-toggle {
+  margin: 10px !important;
+}
+.site-header-menu {
+  margin: 0;
+}
+.main-navigation {
+  margin: 0 !important;
+}
+.main-navigation a {
+  padding: 10px;
+}
+
+/* Widgets */
+.widget-area .widget:first-child {
+  border-top: 0;
+}
+.widget {
+  margin-bottom: 1em !important;
+}
+.widget .widget-title {
+  text-transform: none;
+}
 .widget li {
   padding-bottom: 7px;
+}
+
+@media screen and (min-width: 44.375em) {
+  .site-title {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 56.875em) {
+  .entry-header, .entry-summary, .entry-content, .page-content {
+    margin: 0;
+  }
+  .main-navigation {
+    margin: 5em 0 0 !important;
+  }
 }

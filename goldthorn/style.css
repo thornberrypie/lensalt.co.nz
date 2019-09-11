@@ -46,6 +46,9 @@ body:not(.custom-background-image):after,
 .header-image {
   margin: 0 0 1.5em;
 }
+.header-image img {
+  width: 100%;
+}
 .entry-header, .entry-summary, .entry-content, .page-content {
   margin-left: 5%;
   margin-right: 5%;
@@ -83,6 +86,9 @@ body:not(.custom-background-image):after,
   .site-title {
     margin-left: 5%;
   }
+  .entry-title {
+    font-size: 1.75rem;
+  }
 }
 
 @media screen and (min-width: 56.875em) {
@@ -91,5 +97,11 @@ body:not(.custom-background-image):after,
   }
   .main-navigation {
     margin: 5em 0 0 !important;
+  }
+}
+
+@media screen and (min-width: 61.5625em) {
+  .entry-title {
+    font-size: 2rem;
   }
 }

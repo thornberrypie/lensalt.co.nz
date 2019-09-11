@@ -27,7 +27,15 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
-	<?php endif; ?>
+  <?php endif; ?>
+  <meta name="description" content="Website of Len Salt - Mayoral candidate for Thames-Coromandel">
+	<meta property="og:title" content="Vote Len Salt for mayor!">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://lensalt.co.nz/wp-content/themes/goldthorn/cooks-beach-fb-share.jpg">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+	<meta property="og:url" content="https://lensalt.co.nz">
+	<meta property="og:description" content="Website of Len Salt - Mayoral candidate for Thames-Coromandel">
 	<?php wp_head(); ?>
 </head>
 

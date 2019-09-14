@@ -29,7 +29,7 @@
 	<link rel="pingback" href="<?php echo esc_url( get_bloginfo( 'pingback_url' ) ); ?>">
   <?php endif; ?>
   <meta name="description" content="Website of Len Salt - Mayoral candidate for Thames-Coromandel">
-	<meta property="og:title" content="Vote Len Salt for mayor!">
+	<meta property="og:title" content="Len Salt for mayor - Thames-Coromandel district">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="https://lensalt.co.nz/wp-content/themes/goldthorn/cooks-beach-fb-share.jpg">
   <meta property="og:image:width" content="1200" />

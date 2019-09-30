@@ -4,6 +4,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
+		<h2 class="home-title">Latest updates</h2>
 		<?php
 		$post = get_posts();
 		foreach($posts as $post) { ?>
